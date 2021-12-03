@@ -40,15 +40,15 @@ if __name__ == '__main__':
     image_localisee = image_binarisee.localisation()
     image_localisee.display("Image localisee")
 
-    #==============================================================================
-    # Redimensionnement de l'image et affichage
-    #==============================================================================
-    image_resizee = image_localisee.resize(100, 500)
-    image_resizee.display("Image redimensionee")
-
-    #==============================================================================
-    # Lecture modeles et reconnaissance
-    #==============================================================================
-    liste_modeles = lecture_modeles(path_to_assets)
-    chiffre = reconnaissance_chiffre(image, liste_modeles, 70)
-    print("Le chiffre reconnu est : ", chiffre)
+#    #==============================================================================
+#    # Redimensionnement de l'image et affichage
+#    #==============================================================================
+#    image_resizee = image_localisee.resize(100, 500)
+#    image_resizee.display("Image redimensionee")
+#
+#    #==============================================================================
+#    # Lecture modeles et reconnaissance
+#    #==============================================================================
+#    liste_modeles = lecture_modeles(path_to_assets)
+#    chiffre = reconnaissance_chiffre(image, liste_modeles, 70)
+#    print("Le chiffre reconnu est : ", chiffre)
